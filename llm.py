@@ -24,6 +24,8 @@ import pandas as pd
 # gpt-4o-mini balances cost, speed, and quality for structured JSON tasks.
 LLM_MODEL = "openai/gpt-4o-mini"
 
+print(f"Using LLM model: {LLM_MODEL}")
+
 # ---------------------------------------------------------------------------
 # System prompt — defines the LLM's persona, output format, and rules
 # ---------------------------------------------------------------------------
